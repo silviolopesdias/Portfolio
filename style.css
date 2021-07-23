@@ -127,7 +127,7 @@ header{
  animation: moveBanner 1s  0.5s forwards;
 }
 .banner p{
-font-family: var(--font-secundary);
+font-family: let(--font-secundary);
 color: #ffffff;
 font-size: 2rem;
 text-shadow:.2rem .2rem rgba(0,0,0,0.4);
@@ -224,7 +224,7 @@ opacity: 0;
      display: grid;
      grid-template-columns: repeat(16, 1fr);
      grid-template-rows: repeat(6, 6rem);
-     row-gap: 1rem;
+     row-gap: .5rem;
 }
 .conhecimento:nth-child(1){
     grid-column: 4 / 7;

@@ -313,7 +313,7 @@ opacity: 0;
     width: 100%;
     height: 100%;
     border-radius: .5rem;
-    opacity: .8;
+    opacity: .7;
     transition: opacity .3s;
 }
 .card:hover .card-img-wrapper img{

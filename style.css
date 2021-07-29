@@ -16,7 +16,10 @@
     --font-secundary: "Josefin Slab", serif;
     --font-action: "Mulish", serif;
 }
+html{
+scroll-behavior: smooth;
 
+}
 .hamburguer{
     width: 2rem;
     height: 2rem;
@@ -28,6 +31,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
+    z-index: 200;
 }
 .show-menu .hamburguer{
     right: 16rem;
@@ -169,6 +173,7 @@ opacity: 0;
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 150;
 }
 
 .show-menu .sidebar{
@@ -334,6 +339,7 @@ opacity: 0;
     transition: all .3s;
 }
 .card-info h2{
+
     font-family: var(--font-primary);
     font-size: 2rem;
     font-weight: 500;
@@ -522,7 +528,7 @@ pointer-events: none;
     outline: none;
     border-radius: 10px;
     border: none;
-    padding: 0.3rem;
+
 }
 
 .btn-orcamento{
@@ -531,4 +537,49 @@ pointer-events: none;
     cursor: pointer;
     grid-column: 2;
 
+}
+
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+.social-list i{
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.3rem;
+
+}
+.social-list ul{
+    display: flex;
+}
+#link-topo{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 3rem;
+    bottom: 3rem;
+    background-color:#6a3093; 
+    background: -webkit-linear-gradient(to left, #a044ff, #6a3093);
+    background: linear-gradient(to left, #a044ff, #6a3093);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: .3rem;
+    box-shadow: 0 0.1rem 0.6rem #000000;
 }

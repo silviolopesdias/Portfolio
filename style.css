@@ -487,8 +487,8 @@ pointer-events: none;
     align-items: center;
 }
 .orcamento-wrapper{
-    width: 60%;
-    height: 80%;
+    width: 50%;
+    height: 60%;
     background-color: #ffffff99;
     border-radius: 10px;
     box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.5);
@@ -524,10 +524,11 @@ pointer-events: none;
 .sessao-orcamento input[type="number"]{
     font-family: var(--font-secundary);
     width: 4rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     outline: none;
     border-radius: 10px;
     border: none;
+    padding: 0.3rem;
 
 }
 
@@ -562,7 +563,6 @@ footer{
     margin: 0 2rem;
     color: #a7a7a7;
     font-size: 1.3rem;
-
 }
 .social-list ul{
     display: flex;

@@ -1,6 +1,6 @@
-# Portfólio
+# single page de serviços de um desenvolvedor
 
-Portfólio de desenvolvedor Front End
+O objetivo deste projeto é praticar habilidades em Html, Css e Javascript, o projeto tem uma unica pagina com 5 seções, onde pode ser usada como prestação de serviços, no caso foi adaptada para um desenvolvedor.
 
 ## Tarefas
 
